@@ -1,0 +1,10 @@
+{{#if id}}    
+    <h1>{{ id.title }}</h1>
+    <p>ASIN: {{ id.asin }}</p>
+    <p>Title: {{ id.title }}</p>
+    <p>Category: {{ id.categoryName }}</p>
+    <p>Price: {{ id.price }}</p>    
+    <p>Reviews: {{ id.reviews }}</p>    
+{{else}}
+    <p>Product Not Found. Please Enter Proper Id!</p>
+{{/if}}

@@ -1,0 +1,28 @@
+<h2>All Products Data</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Stars</th>
+            <th>Category Name</th>
+            <th>Price</th>
+            <th>Reviews</th>
+            <th>BestSeller</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each id}}
+        <tr>
+            <td>{{asin}}</td>
+            <td>{{title}}</td>
+            <td>{{stars}}</td>
+            <td>{{categoryName}}</td>
+            <td>{{price}}</td>
+            <td>{{formatReviews reviews}}</td>
+            <td>{{isBestSeller}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+      

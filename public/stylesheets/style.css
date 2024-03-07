@@ -1,0 +1,29 @@
+body {
+    /* padding: 50px; */
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  header {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  footer {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  
+.highlight {
+  color: blue;
+}
+
+.a {
+  background-color: lightcoral; 
+}
